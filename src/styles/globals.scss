@@ -1,0 +1,28 @@
+@use 'sass:math';
+
+// Tailwind styles.
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './general/0.reset.scss';
+@import './general/1.general.scss';
+@import './general/button.scss';
+@import './general/section.scss';
+@import './general/preloader.scss';
+@import './general/box.scss';
+
+//Alerts
+@import './components/alerts/alerts.scss';
+
+//FORM
+@import './forms/forms.scss';
+
+//HEader
+@import './header/header.scss';
+
+//Footer
+@import './footer/footer.scss';
+
+//Home
+@import './home/home.scss';

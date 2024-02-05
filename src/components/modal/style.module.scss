@@ -1,0 +1,18 @@
+.ModalCustom {
+  & {
+    @apply relative p-4 w-full max-w-2xl max-h-full;
+    z-index: 2;
+  }
+
+  &-Open {
+    &-Body,
+    &-Html {
+    }
+  }
+
+  &-CloseButton {
+    &-Icon {
+      @apply text-general-cta-action bg-transparent hover:bg-general-cta-action hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white absolute -top-1 -right-1;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  &Container {
+    @apply pt-2 pb-2 bg-black;
+  }
+
+  .developerBy {
+    @apply text-[12px] flex items-center;
+
+    .logoDeveloperBy {
+      @apply mt-0;
+    }
+  }
+}

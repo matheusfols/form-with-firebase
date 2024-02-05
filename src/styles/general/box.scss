@@ -1,0 +1,20 @@
+.box {
+  &Info {
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+
+    &:hover {
+      -webkit-box-shadow: 0px 3px 5px #00000017;
+      box-shadow: 0px 3px 5px #00000017;
+      -webkit-transform: translateY(-5px px);
+      transform: translateY(-5px);
+    }
+  }
+}

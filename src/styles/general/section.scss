@@ -1,0 +1,61 @@
+.section {
+  & {
+    font-size: 1.125rem;
+    padding: 2rem 0;
+  }
+
+  &Content {
+    @apply bg-white flex items-start justify-center;
+
+    p {
+      @apply m-3 leading-normal;
+    }
+  }
+  &-title {
+    & {
+      @apply text-center max-w-xl mx-auto w-full;
+    }
+    &-primary {
+      @apply text-5xl md:text-6xl font-bold mb-5 text-general-title;
+    }
+
+    &-secondary {
+      @apply text-xl mb-5 font-light;
+    }
+  }
+  &-subTitle {
+    font-weight: 400;
+    font-size: 25px;
+    @apply text-general-txtBase;
+  }
+
+  &-titleInner {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    @apply text-general-title;
+    margin: 10px 0;
+  }
+  &-text {
+    & {
+      font-weight: 400;
+      font-size: 14px;
+    }
+    &-shadow {
+      color: #000;
+      text-shadow: 3px 3px 12px #fff;
+    }
+  }
+
+  &Contact {
+    @apply flex content-center justify-center mt-5 mb-5;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    &-title {
+      font-size: 30px;
+    }
+  }
+}

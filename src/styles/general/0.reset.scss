@@ -1,0 +1,19 @@
+body {
+  font-family: var(--font-poppins);
+  font-weight: normal;
+  font-style: normal;
+  background-color: #fff;
+  @apply text-general-txtBase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}

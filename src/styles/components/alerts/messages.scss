@@ -1,0 +1,43 @@
+.Message {
+  & {
+    @apply w-full max-w-[592px];
+  }
+  &Container {
+    @apply w-full flex flex-col justify-center content-center flex-wrap gap-6;
+  }
+
+  &Icon {
+    @apply flex justify-center content-center;
+  }
+
+  &Text {
+    @apply flex flex-col w-full text-center gap-6;
+  }
+
+  &Label {
+    font-size: 24px;
+    line-height: 29px;
+
+    &--Highlights {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+
+  &Buttons {
+    @apply flex justify-center mt-4;
+  }
+
+  &Close {
+    width: 206px;
+    max-width: 100%;
+  }
+
+  &Empty,
+  &Loading {
+    @apply flex justify-center content-center p-8;
+    max-width: 100%;
+    min-height: 50vh;
+  }
+}

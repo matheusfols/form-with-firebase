@@ -1,0 +1,25 @@
+.Home {
+  &Banner {
+    @apply bg-general-cta-action flex flex-col flex-wrap justify-center content-center relative;
+    width: 100%;
+    min-height: 290px;
+    // background-image: url('/images/banner/banner-05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // margin-bottom: 2rem;
+
+    &::before {
+      // content: '';
+      // @apply block absolute inset-0 bg-black opacity-70 w-full h-full;
+      // z-index: 0;
+    }
+
+    &-text {
+      &-shadow {
+        color: #fff;
+        text-shadow: 3px 3px 12px #000;
+      }
+    }
+  }
+}
